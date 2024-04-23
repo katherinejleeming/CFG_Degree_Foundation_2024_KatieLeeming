@@ -42,10 +42,10 @@ Immutable data types cannot have their values changed. Once they are created if 
 An immutable data type would be a string for example - if you attempted to modify a string it would create a new strong object instead.
 
 Q1.9:
-Asynchronous functions allow code to be executed immediately whereas synchronous code works in a sequence. It will not execute any further code until it finishes the current one.
+Asynchronous functions allow all code to be executed immediately whereas synchronous code works in a sequence. It will not execute any further code until it finishes the current line.
 
 Q1.10:
 Client Involvement - Once the endpoint of a waterfall project has been finalised, the product owner/ client tends not to be involved in the development process apart from key check-ins or updates. As the course of the project is already established, ongoing client feedback is unnecessary. In Agile development, on the other hand, it is imperative to include the product owner in all aspects of the project development – ongoing client feedback is integral throughout the development process.
-Budget - Waterfall development has a fixed budget as the project and it’s timeline has already been predetermined. As Agile development is far more flexible and supports experimentation, it is likely the budget is also more flexible.
+Budget - Waterfall development has a fixed budget as the project and its timeline has already been predetermined. As Agile development is far more flexible and supports experimentation, it is likely the budget is also more flexible.
 Timeline - Waterfall development has a fixed timeline whereas Agile project’s schedule will develop as the project develops.
 Flexibility - Each phase of waterfall development must be completed before moving onto the next stage. The entire project is planned out before the commencement of the work. Agile, on the contrary, has flexibility built into its model. Short bursts of work, called sprints, helps allow for the incorporation of new information even at late stages of the project.
