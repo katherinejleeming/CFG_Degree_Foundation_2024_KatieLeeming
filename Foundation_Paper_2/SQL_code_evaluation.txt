@@ -1,0 +1,20 @@
+SELECT
+    patient_id, COUNT(*) AS admission_count
+FROM 
+    admissions
+JOIN
+    departments ON admissions.department_id = departments.department_id
+WHERE
+    (departments.department_name = 'Cardiology' OR departments.department_name IS NULL)
+    AND admission_date >= '2015-01-01'
+GROUP BY
+    patient_id
+ORDER BY
+    admission_count DESC
+LIMIT 1;
+
+Improvements to code:
+1. use IS NULL rather than = NULL in SQL queries
+2. Use a JOIN rather than a subquery
+3. 
+
