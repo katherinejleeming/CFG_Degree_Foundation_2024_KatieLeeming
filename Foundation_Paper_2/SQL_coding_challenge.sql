@@ -1,6 +1,6 @@
 -- USE bookings;
 
--- Task 1: clean data
+-- Task 1: clean up data and remove currency sign
 -- ALTER TABLE properties
 -- ADD COLUMN price_without_currency DECIMAL(10, 2);
 
@@ -9,7 +9,7 @@
 
 -- SELECT * FROM properties;
 
--- Task 2: Top Earning Properties
+-- Task 2: retrieve the top earning properties
 -- SELECT 
 --     p.property_name,
 --     p.company_name,
@@ -26,7 +26,7 @@
 -- LIMIT 10;
 
 
--- Task 3: Family Friendly Properties
+-- Task 3: retrieve the family friendly properties
 -- SELECT 
 --     p.property_name,
 --     p.city,
@@ -48,7 +48,7 @@
 -- DELIMITER ;
 
 
--- Task 5: Lowest Rated Property
+-- Task 5: Retrieve the lowest rated property
 -- SELECT 
 --     p.property_name,
 --     p.city,
