@@ -1,5 +1,29 @@
 Q1.1:
-A primary key is used to make sure that data in a specific column is unique, e.g. User ID.
-It also ensures that a column can’t have null values. 
-A foreign key provides a link between data in two tables. 
-It can be a single column or a group of them in the relational database.
+A primary key is used to make sure that data in a specific column is unique, e.g. User ID. It also ensures that a column can’t have null values. A foreign key provides a link between data in two tables. It can be a single column or a group of them in the relational database.
+
+Q1.2:
+
+Q1.3:
+Git commit makes changes to your local repository whereas git push makes changes to the remote repository. You would use Git commit first to update your local files before using Git push to upload them to the remote repository.
+
+Q1.4:
+undefined is a declared variable that has not yet been assigned a value whereas null is an assignment value rather than the variable itself.
+
+Q1.5:
+
+Q1.6:
+
+Q1.7:
+
+Q1.8:
+Mutable data types can have their values changed after creation. These allow for flexibility and for modifications to be made to data structures. A mutable data type would be a list for example - you can modify lists by adding, removing, or updating elements. 
+Immutable data types cannot have their values changed. Once they are created if you wish to change their value you would have to create a new object. They ensure data consistency across a program. An immutable data type would be a string for example - if you attempted to modify a string it would create a new strong object instead.
+
+Q1.9:
+Asynchronous functions allow code to be executed immediately whereas synchronous code works in a sequence. It will not execute any further code until it finishes the current one.
+
+Q1.10:
+Client Involvement - Once the endpoint of a waterfall project has been finalised, the product owner/ client tends not to be involved in the development process apart from key check-ins or updates. As the course of the project is already established, ongoing client feedback is unnecessary. In Agile development, on the other hand, it is imperative to include the product owner in all aspects of the project development – ongoing client feedback is integral throughout the development process.
+Budget - Waterfall development has a fixed budget as the project and it’s timeline has already been predetermined. As Agile development is far more flexible and supports experimentation, it is likely the budget is also more flexible.
+Timeline - Waterfall development has a fixed timeline whereas Agile project’s schedule will develop as the project develops.
+Flexibility - Each phase of waterfall development must be completed before moving onto the next stage. The entire project is planned out before the commencement of the work. Agile, on the contrary, has flexibility built into its model. Short bursts of work, called sprints, helps allow for the incorporation of new information even at late stages of the project.
