@@ -12,12 +12,11 @@
 -- Task 2: retrieve the top earning properties
 -- SELECT 
 --     p.property_name,
---     p.company_name,
 --     p.price_without_currency AS price,
 --     (p.price_without_currency * COUNT(r.property_id)) AS total_earning
 -- FROM 
 --     properties p
--- JOIN 
+-- INNER JOIN 
 --     reviews r ON p.property_id = r.property_id
 -- GROUP BY 
 --     p.property_id
@@ -31,15 +30,15 @@
 --     p.property_name,
 --     p.city,
 --     p.price_without_currency AS price,
---     p.company_name
 -- FROM 
 --     properties p
--- JOIN 
+-- INNER JOIN 
 --     reviews r ON p.property_id = r.property_id
 -- WHERE 
 --     r.review_text LIKE '%family%';
 
 -- Task 4: Most Expensive Property
+-- began to create the procedure but ran out of time in order to finish
 
 -- CREATE PROCEDURE get_most_expensive_property(IN city_name VARCHAR(100))
 -- BEGIN
@@ -53,11 +52,10 @@
 --     p.property_name,
 --     p.city,
 --     p.price_without_currency AS price,
---     p.company_name,
 --     AVG(r.score) AS average_score
 -- FROM 
 --     properties p
--- JOIN 
+-- INNER JOIN 
 --     reviews r ON p.property_id = r.property_id
 -- GROUP BY 
 --     p.property_id

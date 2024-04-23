@@ -16,5 +16,5 @@ LIMIT 1;
 Improvements to code:
 1. use IS NULL rather than = NULL in SQL queries
 2. Use a JOIN rather than a subquery
-3. 
+3. Use indexing to speed up query execution 
 
