@@ -1,0 +1,5 @@
+Q1.1:
+A primary key is used to make sure that data in a specific column is unique, e.g. User ID.
+It also ensures that a column can’t have null values. 
+A foreign key provides a link between data in two tables. 
+It can be a single column or a group of them in the relational database.
