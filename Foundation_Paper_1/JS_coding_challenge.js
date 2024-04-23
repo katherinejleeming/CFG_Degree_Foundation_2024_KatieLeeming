@@ -23,7 +23,6 @@ class bookstore {
         else {
             console.log(`Error: Book "${book.title}" already exists.`);
         }
-
         
     }
 
@@ -54,7 +53,7 @@ class bookstore {
 
 
 const book1 = new book('JS for Dummies', 'Bing Bang Bong', 'Information', 10);
-const book2 = new book('JS for Dummies 2', 'Bing Bang Bong', 'Information', 10);
+const book2 = new book('JS for Dummies 2: Electric Boogaloo', 'Bing Bang Bong', 'Information', 10);
 const book3 = new book('JS for Dummies 3', 'Bing Bang Bong', 'Information', 10);
 
 const myBookstore = new bookstore();
