@@ -1,23 +1,45 @@
 Q1.1:
-A primary key is used to make sure that data in a specific column is unique, e.g. User ID. It also ensures that a column can’t have null values. A foreign key provides a link between data in two tables. It can be a single column or a group of them in the relational database.
+A primary key is used to make sure that data in a specific column is unique, e.g. User ID. It also ensures that a column can’t have null values.
+A foreign key provides a link between data in two tables. It can be a single column or a group of them in the relational database.
 
 Q1.2:
+finally is used in conjunction with try and except blocks. The finally block defines a section of code that must be executed regardless of whether an exception occurs or not.
+It could be used to ensure a certain action is executed, for example closing a key file, even if an exception is raised in the try block or if an exception is caught by an except block.
 
 Q1.3:
-Git commit makes changes to your local repository whereas git push makes changes to the remote repository. You would use Git commit first to update your local files before using Git push to upload them to the remote repository.
+Git commit makes changes to your local repository whereas git push makes changes to the remote repository.
+You would use Git commit first to update your local files before using Git push to upload them to the remote repository.
 
 Q1.4:
 undefined is a declared variable that has not yet been assigned a value whereas null is an assignment value rather than the variable itself.
 
 Q1.5:
+PokéAPI (Pokémon API): The PokéAPI provides comprehensive information about Pokémon including species, moves, type, abilities, etc. It also has information about characters, games, and items from various generations of Pokémon games.
+OpenWeatherMap API: The OpenWeatherMap API provides access to data about weather and forecasts for places across the globe. It provides current weather conditions, forecasts for the next couple of days, other historical weather data, etc. You are able to retrieve weather information in various formats, including JSON, XML, and HTML.
 
 Q1.6:
+Communicates the vision: The Product Owner works with the stakeholders on a project to create a clear vision of what they want the product to look like throughout the process. 
+
+Manages product backlog: They manage the product backlog (list of tasks) needed to complete a project to help maximise efficiency and transparency for the project. It is a live document that should be constantly updated so the product owner has this responsibility.
+
+Evaluates stakeholder feedback: They gather feedback from the stakeholders to bring to the Scrum team and take a key role in inspecting and evaluating the project.  This helps meet client expectations and apply their feedback appropriately.
+
+Acts as primary liaison: They are the link between the development team and those who have commissioned the project. They must be able to expertly communicate with both clients and a tech team, which will have different needs and priorities so must act as a middle man.
 
 Q1.7:
+Say you have two tables: ‘Employees’ and ‘Departments’. The Employees table contains information about employees, including their department ID, and the Departments table contains information about different departments, including their department ID and name.
+
+INNER JOIN: 
+You would use INNER JOIN to retrieve a list of employees along with the name of the department they belong to.
+
+LEFT JOIN:
+You would use LEFT JOIN to retrieve a list of all departments along with the count of employees in each department. Some departments may have no employees (which would return a NULL value from the right table) but still be included in the result. A LEFT JOIN returns all rows from the left table which is the first table mentioned in the query.
 
 Q1.8:
-Mutable data types can have their values changed after creation. These allow for flexibility and for modifications to be made to data structures. A mutable data type would be a list for example - you can modify lists by adding, removing, or updating elements. 
-Immutable data types cannot have their values changed. Once they are created if you wish to change their value you would have to create a new object. They ensure data consistency across a program. An immutable data type would be a string for example - if you attempted to modify a string it would create a new strong object instead.
+Mutable data types can have their values changed after creation. These allow for flexibility and for modifications to be made to data structures.
+A mutable data type would be a list for example - you can modify lists by adding, removing, or updating elements. 
+Immutable data types cannot have their values changed. Once they are created if you wish to change their value you would have to create a new object. They ensure data consistency across a program.
+An immutable data type would be a string for example - if you attempted to modify a string it would create a new strong object instead.
 
 Q1.9:
 Asynchronous functions allow code to be executed immediately whereas synchronous code works in a sequence. It will not execute any further code until it finishes the current one.
