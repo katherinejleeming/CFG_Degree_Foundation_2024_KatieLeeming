@@ -6,7 +6,14 @@
 // TASK 1 
 
 const isPalindrome  = (word) => {
-  return true 
+ word = word.toLowerCase().replace(/[^a-z0-9]/g, ''); // removing non-alphanumeric characters just in case
+ var len = word.length;
+ for (var i = 0; i < len/2; i++) {
+   if (word[i] !== word[len - 1 - i]) {
+       return false; // if the characters do not match, record false (not a palindrome) to log and exit the for loop
+   }
+ }
+ return true; // if loop is successful record true to log
 }
 
 console.log(isPalindrome("abcdcba")) // TRUE 
@@ -22,9 +29,30 @@ console.log(isPalindrome("aa")) // TRUE
 
 // TASK 2
 
- const isMissing = (arrayInput) => {
-    const missing = 0
-    return `${missing} is missing`
+
+function isMissing(arrayInput) {
+  let n = arrayInput.length;
+  let temp = new Array(n + 1).fill(0);
+
+  for (let i = 0; i < n; i++) {
+      if (typeof arrayInput[i] !== 'number') {
+          throw new Error('Invalid input, non-numeric value detected');
+      }
+      if (arrayInput[i] <= 0) {
+        throw new Error('Invalid input, negative number detected');
+    }
+      temp[arrayInput[i] - 1] = 1;
+  }
+
+  
+  for (let i = 0; i <= n; i++) {
+      if (temp[i] === 0) {
+        let missing = i + 1;
+        return `${missing} is missing`;;
+      }
+  }
+
+  throw new Error('Nothing is missing');
 }
 
 
