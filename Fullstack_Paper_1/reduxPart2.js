@@ -1,15 +1,13 @@
 const classInfo = () => {
-    let [studentsCount, setStudentsCount] = useState(0);
+  let [studentsCount, setStudentsCount] = useState(0);
 
-    return(
-        <div>
-            <p>Number of students in class room: {studentsCount}</p>
-            <button onClick={setStudentsCount}>Add Student</button>
-        </div>
-    )
+  return (
+    <div>
+      <p>Number of students in class room: {studentsCount}</p>
+      <button onClick={setStudentsCount}>Add Student</button>
+    </div>
+  );
 };
-
-
 
 // 1. Can you provide a brief summary on what is happening on line 34, 39?
 
