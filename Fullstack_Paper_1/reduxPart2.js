@@ -20,8 +20,8 @@ const classInfo = () => {
 // include only the total number of students who are present.
 // a. Write a pseudocode of how your function would look.
 
-// INPUT {name: x , present = bool}
-// IF present = true THEN
+// INPUT {name: x , payload = true}
+// IF payload = true THEN
 // UPDATE state.studentsCount + 1
 // RETURN alert('Student Added')
 // ELSE Break
@@ -32,4 +32,4 @@ const classInfo = () => {
 // Simply, you could add a console.log/ alert to mark if the function has triggered
 
 // c. How will you update the state with the result of your function?
-//  using dispatch(action)
+//  using dispatch(action) on the button click

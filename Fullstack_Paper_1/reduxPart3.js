@@ -14,7 +14,7 @@ function countReducer(state = initialState, action){
 
 // 1. A change of code was made on line 174 (figure 4), can you briefly explain what that would do?
 
-// 
+// action.payload handles the update within the function 
 
 // 2. Let’s say we don’t want to set the state locally anymore and want to use dispatch.
 // How would you ensure that an “increment” action that also contains the result of the
